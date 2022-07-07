@@ -6,9 +6,9 @@
 - kaiju-run-parser output: kaiju classification: files summary, OTU and Tax tables format to be imported into Phyloseq (R-software). 
 - The programs use kaiju-multi, kaiju2table and kaiju-addTaxonNames has to be in your PATH: these programs are part of the kaiju installation.
 
-*Before to follow for run_kaiju2-phyloseq.py.
+*Before to follow to perform run_kaiju2-phyloseq.py.
 
-*Steps: 1 - Metaspades installation
+- Metaspades installation
 - Run metaspades to obtain scaffolds.fasta
 - mkdir All-assemblies
 - Save scaffolds in the dir: All-assemblies
