@@ -8,11 +8,11 @@
 
 - The files names.dmp and nodes.dmp from obtained of taxonomy database of NCBI and kaiju.fmi (indexed nr ncbi files) are need to Kaiju run.
 
-** Necessario instalar os módulos em python:
+- Necessario instalar os módulos em python:
 - Bio
 - glob
 - pandas
 - subprocess
 - sys
 - import os
-*
+
