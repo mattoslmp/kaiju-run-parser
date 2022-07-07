@@ -1,4 +1,4 @@
-# kaiju-run-parser
+# kaiju-run-parser: run_kaiju2-phyloseq.py
 
 * This takes a directory with fasta scaffolds generates from Spades and performed kaiju classification (http://kaiju.binf.ku.dk/)
 # The fist step is kaiju installation and after you shoud run metaspades
