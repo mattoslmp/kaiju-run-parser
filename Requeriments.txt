@@ -1,13 +1,12 @@
 Its necessary install the Python 3:
 
-1) sudo apt install python3
+1) sudo apt-get install python3
 2) Its necessary install the following python modules:
-
-- Bio:
+Bio:
 pip3 install Bio
-- glob:
+glob:
 pip3 install glob2
-- pandas:
+pandas:
 pip3 install pandas
 
 * Sugestion You should creat the conda environment with python 3.7 and theses modules installed
