@@ -9,9 +9,9 @@
 *Before to follow to perform run_kaiju2-phyloseq.py.
 
 - Metaspades installation
-- Run metaspades to obtain scaffolds.fasta
+- Run metaspades to get the Scaffolds.fasta for each sample.
 - mkdir All-assemblies
-- Save scaffolds in the dir: All-assemblies
+- Save all scaffolds in the dir: All-assemblies
 - kaiju installation
 - kaiju databased download (included files: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi.
 - This files can be obtained wwith kaiju: kaiju-makedb -s nr_euk (more info here: https://github.com/bioinformatics-centre/kaiju).
