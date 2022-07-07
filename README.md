@@ -1,7 +1,8 @@
 # kaiju-run-parser: run_kaiju2-phyloseq.py
 
-* This takes a directory with fasta scaffolds generates from Spades and performed kaiju classification (http://kaiju.binf.ku.dk/)
 # The fist step is kaiju installation and after you shoud run metaspades
+
+* This takes a directory with fasta scaffolds generates from Spades and performed kaiju classification (http://kaiju.binf.ku.dk/)
 
 - kaiju-run-parser output: kaiju classification, files summary, creates OTU and Tax tables format to be imported into Phyloseq 
 - The programs use kaiju-multi, kaiju2table and kaiju-addTaxonNames has to be in your PATH: these programs are part of the kaiju installation.
@@ -15,5 +16,4 @@
 - subprocess
 - sys
 
-* Sugestão criar um conda environment com estes modulos do python 3.7
-
+* Sugestion You should creat the conda environment with these modules installed and python 3.7
