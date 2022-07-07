@@ -14,5 +14,6 @@
 - pandas
 - subprocess
 - sys
-- import os
+
+* Sugestão criar um conda environment com estes modulos do python 3.8
 
