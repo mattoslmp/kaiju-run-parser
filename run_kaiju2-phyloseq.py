@@ -1,5 +1,4 @@
-#!/bio_temp/share_bio/softwares/miniconda3/envs/kaiju2-parser/bin/python3.7
-# Made using Python 3.7
+#!/usr/bin/python3.7
 # Autor: Leandro de Mattos Pereira, PhD
 # Pos-doc Vale Institute Technologic
 # Supervisor: Dra. Gisele Nunes
