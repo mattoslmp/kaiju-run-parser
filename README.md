@@ -1,15 +1,5 @@
 # kaiju-run-parser (run_kaiju2-phyloseq.py)
 
-Its necessary install the modules:
-
-- Bio
-- glob
-- pandas
-- subprocess
-- sys
-
-* Sugestion You should creat the conda environment with these modules installed and python 3.7
-
 # The fist step is Run metaspades and later kaiju installation before to follow for run_kaiju2-phyloseq.py.
 
 * This takes a directory with fasta scaffolds generates from Spades and performed kaiju classification (http://kaiju.binf.ku.dk/)
