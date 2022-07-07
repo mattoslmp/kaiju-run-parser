@@ -15,5 +15,5 @@
 - subprocess
 - sys
 
-* Sugestão criar um conda environment com estes modulos do python 3.8
+* Sugestão criar um conda environment com estes modulos do python 3.7
 
