@@ -13,7 +13,7 @@
 - mkdir All-assemblies
 - Save all scaffolds in the dir: All-assemblies
 - kaiju installation
-- kaiju databased download (included files: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi.
+- kaiju databased download (included files: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi #indexed files of ncbi in kaiju format)
 - This files can be obtained wwith kaiju: kaiju-makedb -s nr_euk (more info here: https://github.com/bioinformatics-centre/kaiju).
 - python3 -m venv kaiju2-parser
 - source kaiju2-parser/bin/activate
