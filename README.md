@@ -2,8 +2,8 @@
 
 *Before to follow for run_kaiju2-phyloseq.py.
 
-Steps: 1 - Metaspades installation
-       2 - Run metaspades to obtain scaffolds.fasta
+*Steps: 1 - Metaspades installation
+        2 - Run metaspades to obtain scaffolds.fasta
        4 - mkdir All-assemblies
        5 - Save scaffolds in the dir: All-assemblies
        3 - kaiju installation
