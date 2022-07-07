@@ -13,14 +13,15 @@
 - mkdir All-assemblies
 - Save all scaffolds in the dir: All-assemblies
 - kaiju installation
-- kaiju databased download (included files: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi #indexed files of ncbi in kaiju format)
-- This files can be obtained wwith kaiju: kaiju-makedb -s nr_euk (more info here: https://github.com/bioinformatics-centre/kaiju).
+- kaiju databased files download (including: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi
+- kaiju.fmi: indexed files of ncbi in kaiju format).
+- Theses cited database files can be obtained with kaiju: kaiju-makedb -s nr_euk (more info here: https://github.com/bioinformatics-centre/kaiju).
 - python3 -m venv kaiju2-parser
 - source kaiju2-parser/bin/activate
 - cd All-assemblies
 - Download requeriments.txt to dir: All-assemblies
 - pip3 install -r /path/to/All-assemblies/requirements.txt
-- python3 run_kaiju2-phyloseq.py -h (The required parameters will be shown).
+- python3 run_kaiju2-phyloseq.py -h (The required parameters to run_kaiju2-phyloseq.py will be shown).
        
 
 
