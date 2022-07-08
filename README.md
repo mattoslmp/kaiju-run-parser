@@ -5,7 +5,7 @@
 - run_kaiju2-phyloseq.py takes all fasta scaffolds (Ex: All-assemblies) generates from Spades and performed all steps of kaiju classification (https://github.com/bioinformatics-centre/kaiju)
 - kaiju-run-parser output: 
 
-**kaiju files summary, OTU and Taxonomy tables format to be imported into R (Ex: Phyloseq) or Python.
+  kaiju files summary, OTU and Taxonomy tables format to be imported into R (Ex: Phyloseq) or Python.
  
 - The run_kaiju2-phyloseq.py use kaiju-multi, kaiju2table and kaiju-addTaxonNames which is need to be in your PATH: these programs are part of the kaiju.
 
