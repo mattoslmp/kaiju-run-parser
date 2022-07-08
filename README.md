@@ -1,6 +1,6 @@
 # kaiju2-data-parser 
 
-- Put all your scaffolds.fasta (from MetaSpades) in the directory (All-assemblies), localization where will stay the script: run_kaiju2-phyloseq.py. 
+- Put all your scaffolds.fasta metagenomes (from MetaSpades) in the directory (All-assemblies), same location of the script: run_kaiju2-phyloseq.py 
   Example: All_assembly/run_kaiju2-phyloseq.py
 - run_kaiju2-phyloseq.py takes all fasta scaffolds (Ex: All-assemblies) generates from Spades and performed all steps of kaiju classification (https://github.com/bioinformatics-centre/kaiju)
 - kaiju-run-parser output: 
