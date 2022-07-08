@@ -25,7 +25,7 @@
 - Download requeriments.txt to dir: All-assemblies
 - pip3 install -r /path/to/All-assemblies/requirements.txt
 - python3 run_kaiju2-phyloseq.py -h 
-  The required arguments to run_kaiju2-phyloseq.py will be shown.
+  **The required arguments to run_kaiju2-phyloseq.py will be shown.
        
 
 
