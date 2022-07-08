@@ -16,7 +16,7 @@
 - mkdir All-assemblies
 - Save all scaffolds in the dir: All-assemblies
 - kaiju installation
-- kaiju databased files download (including: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi
+- kaiju databased files download (including: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi)
 - kaiju.fmi: its is the indexed files of ncbi in kaiju format.
 - Theses cited database files can be obtained with kaiju: kaiju-makedb -s nr_euk (more info here: https://github.com/bioinformatics-centre/kaiju).
 - python3 -m venv kaiju2-parser
