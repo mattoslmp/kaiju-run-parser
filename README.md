@@ -1,13 +1,16 @@
-# kaiju-run-parser (run_kaiju2-phyloseq.py)
+# kaiju2-data-parser 
 
-* This takes a directory with all fasta scaffolds (Ex: All-assemblies) generates from Spades and performed all steps of kaiju classification (http://kaiju.binf.ku.dk/)
 - Put all your scaffolds.fasta (from MetaSpades) in the directory (All-assemblies), localization where will stay the script: run_kaiju2-phyloseq.py. 
-   Example: All_assembly/run_kaiju2-phyloseq.py
-- kaiju-run-parser output: kaiju classification: files summary, OTU and Tax tables format to be imported into Phyloseq (R-software). 
-- The programs use kaiju-multi, kaiju2table and kaiju-addTaxonNames has to be in your PATH: these programs are part of the kaiju installation.
+  Example: All_assembly/run_kaiju2-phyloseq.py
+- run_kaiju2-phyloseq.py takes all fasta scaffolds (Ex: All-assemblies) generates from Spades and performed all steps of kaiju classification (https://github.com/bioinformatics-centre/kaiju)
+- kaiju-run-parser output: 
 
-*Before to follow to perform run_kaiju2-phyloseq.py.
+**kaiju files summary, OTU and Taxonomy tables format to be imported into R (Ex: Phyloseq) or Python.
+ 
+- The run_kaiju2-phyloseq.py use kaiju-multi, kaiju2table and kaiju-addTaxonNames which is need to be in your PATH: these programs are part of the kaiju.
 
+ *Before to follow to perform run_kaiju2-phyloseq.py.
+ 
 - Metaspades installation
 - Run metaspades to get the Scaffolds.fasta for each sample.
 - mkdir All-assemblies
