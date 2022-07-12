@@ -3,7 +3,7 @@
 # Pos-doc Vale Institute Technologic
 # Supervisor: Dra. Gisele Nunes
 import sys
-import site; site.getsitepackages
+import site
 import argparse
 import Bio
 import glob
