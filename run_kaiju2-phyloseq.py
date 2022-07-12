@@ -1,7 +1,7 @@
 #!/usr/bin/python3.7
-# Autor: Leandro de Mattos Pereira, PhD
+# Autor: Leandro de Mattos Pereira, Computational Biology PhD
 # Pos-doc Vale Institute Technologic
-# Supervisor: Dra. Gisele Nunes
+# Superviser: Dra. Gisele Nunes, Research from Vale Institute Technologic.
 import sys
 import site
 import argparse
