@@ -1,7 +1,7 @@
 #!/usr/bin/python3.7
-# Author: Leandro de Mattos Pereira, Computational Biologist PhD.
+# Authors: Leandro de Mattos Pereira, Computational Biologist PhD.
 # Pos-doc Vale Institute Technologic
-# Superviser: Dra. Gisele Nunes, Researcher from Vale Institute Technologic.
+# Dra. Gisele Nunes (Superviser), Researcher from Vale Institute Technologic.
 
 import sys
 import site; site.getsitepackages
