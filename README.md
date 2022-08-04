@@ -15,6 +15,7 @@
 - Run metaspades to get the Scaffolds.fasta for each sample.
 - mkdir All-assemblies
 - Save all scaffolds in the dir: All-assemblies
+- Run the CDS (*.fna) prediction with gene prediction program such as Prodigal: (https://github.com/hyattpd/prodigal/wiki/gene-prediction-modes).
 - kaiju installation
 - kaiju databased files download (including: names.dmp and nodes.dmp from taxonomy database of NCBI and kaiju.fmi)
 - kaiju.fmi: its is the indexed files of ncbi in kaiju format.
@@ -30,7 +31,7 @@
 
 - -t (number of cpus), -m (nodes.dmp from kaiju nr_euk database), -n (names.dmp from kaiju nr_euk database), -f (kaiju_db_nr_euk.fmi from kaiju index generated from nr_euk database), -i ./ (dir with .fna files), -o (name of OTU table).
 
-- OBS: The script have a -i argument all the .fna files. The .fna files are the CDS (coding DNA sequence) files obtained from each scaffold.fasta using a program of gene prediction such as Prodigal (https://github.com/hyattpd/prodigal/wiki/gene-prediction-modes).
+- OBS: The script have as -i argument all the .fna files. The .fna files are the CDS (coding DNA sequence) files obtained from each scaffold.fasta using a program of gene prediction such as Prodigal.
        
 
 
