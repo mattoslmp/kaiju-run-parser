@@ -2,8 +2,9 @@
 # Author: Leandro de Mattos Pereira, Computational Biologist PhD.
 # Pos-doc Vale Institute Technologic
 # Superviser: Dra. Gisele Nunes, Researcher from Vale Institute Technologic.
+
 import sys
-import site
+import site; site.getsitepackages
 import argparse
 import Bio
 import glob
@@ -14,7 +15,7 @@ import os
 
 parser = argparse.ArgumentParser(description='Workflown for kaiju run:')
 
-parser.add_argument("-t", "--threads", default=1, required = False,
+parser.add_argument("-t", "--threads", default=8, required = False,
                                         help="Input amount of available cores")
 parser.add_argument("-m", "--nodes", required = True,
                                         help="Name of kaiju nodes.dmp file")
@@ -34,24 +35,24 @@ args = parser.parse_args()
 
 # First, we will add taxonomical names to the kaiju output using kaiju-addTaxonNames
 kaijus = []
-#Glob() function to find files recursively in Python
-#glob.glob
+Glob() function to find files recursively in Python
+glob.glob
 
-kaijus = glob.glob(args.indir + "/*.fasta")
-#print(kaijus)
+kaijus = glob.glob(args.indir + "/*.fna")
+print(kaijus)
 for file in kaijus:
         output = file + ".out"
         subprocess.call(['kaiju-multi', '-t', args.nodes, '-f', args.fmi, '-i', file, '-o', output])
 
 kaijus = []
-kaijus = glob.glob(args.indir + "/*.fasta.out")
+kaijus = glob.glob(args.indir + "/*.fna.out")
 for file in kaijus:
         output = file + ".kaiju_summary.species.tsv"
         subprocess.call(['kaiju2table', '-t', args.nodes, '-n', args.names, '-r', 'species', '-l','superkingdom,phylum,class,order,family,genus,species', file, '-o', output])
 
 # First, we will add taxonomical names to the kaiju output using kaiju-addTaxonNames
 kaijus = []
-kaijus = glob.glob(argsy.indir + "/*.out.names")
+kaijus = glob.glob(args.indir + "/*.fna.out")
 for file in kaijus:
 	output = file + ".names"
 	subprocess.call(['kaiju-addTaxonNames', '-n', args.names, '-t', args.nodes, '-r', 'superkingdom,phylum,class,order,family,genus,species', '-i', file, '-o', output])
