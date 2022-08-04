@@ -1,7 +1,7 @@
 #!/usr/bin/python3.7
-# Authors: Leandro de Mattos Pereira, Computational Biologist PhD.
-# Pos-doc Vale Institute Technologic
-# Dra. Gisele Nunes (Superviser), Researcher from Vale Institute Technologic.
+# Authors: 
+# Leandro de Mattos Pereira, Computational Biologist PhD. Pos-doc Vale Institute Technologic
+# Gisele Nunes PhD (Superviser), Researcher from Vale Institute Technologic.
 
 import sys
 import site; site.getsitepackages
@@ -50,7 +50,7 @@ for file in kaijus:
         output = file + ".kaiju_summary.species.tsv"
         subprocess.call(['kaiju2table', '-t', args.nodes, '-n', args.names, '-r', 'species', '-l','superkingdom,phylum,class,order,family,genus,species', file, '-o', output])
 
-# First, we will add taxonomical names to the kaiju output using kaiju-addTaxonNames
+# Firstly, we will add taxonomical names to the kaiju output using kaiju-addTaxonNames
 kaijus = []
 kaijus = glob.glob(args.indir + "/*.fna.out")
 for file in kaijus:
