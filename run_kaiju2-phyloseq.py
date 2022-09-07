@@ -1,6 +1,7 @@
 #!/usr/bin/python3.7
 # Authors: 
 # Leandro de Mattos Pereira, Computational Biologist PhD. Pos-doc Vale Institute Technologic
+# Script adapted from Gisle Vestergaard (https://github.com/gisleDK)
 # Gisele Nunes PhD (Superviser), Researcher from Vale Institute Technologic.
 
 import sys
