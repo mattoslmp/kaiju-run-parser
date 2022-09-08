@@ -34,26 +34,23 @@ if len(sys.argv)==1:
     sys.exit(1)
 args = parser.parse_args()
 
-# First, we will add taxonomical names to the kaiju output using kaiju-addTaxonNames
+# First, we will add taxonomical names to the kaiju output using kaiju-multi
 kaijus = []
-Glob() function to find files recursively in Python
-glob.glob
-
-kaijus = glob.glob(args.indir + "/*.fna")
+kaijus = glob.glob(args.indir + "/*.fa")
 print(kaijus)
 for file in kaijus:
         output = file + ".out"
         subprocess.call(['kaiju-multi', '-t', args.nodes, '-f', args.fmi, '-i', file, '-o', output])
 
 kaijus = []
-kaijus = glob.glob(args.indir + "/*.fna.out")
+kaijus = glob.glob(args.indir + "/*.fa.out")
 for file in kaijus:
         output = file + ".kaiju_summary.species.tsv"
         subprocess.call(['kaiju2table', '-t', args.nodes, '-n', args.names, '-r', 'species', '-l','superkingdom,phylum,class,order,family,genus,species', file, '-o', output])
 
-# Firstly, we will add taxonomical names to the kaiju output using kaiju-addTaxonNames
+# First, we will add taxonomical names to the kaiju output using kaiju-addTaxonNames
 kaijus = []
-kaijus = glob.glob(args.indir + "/*.fna.out")
+kaijus = glob.glob(args.indir + "/*.fa.out")
 for file in kaijus:
 	output = file + ".names"
 	subprocess.call(['kaiju-addTaxonNames', '-n', args.names, '-t', args.nodes, '-r', 'superkingdom,phylum,class,order,family,genus,species', '-i', file, '-o', output])
