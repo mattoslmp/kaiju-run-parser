@@ -1,6 +1,6 @@
 # kaiju2-data-parser 
 
-- Authors: PhD, Leandro de Mattos Pereira, Supervisor: PhD, Gisele Nunes.
+- Authors: PhD, Leandro de Mattos Pereira, Supervisor: PhD, Gisele Nunes, Vale Institute of Technology (ITV), Brazil, Belem - Pará.
 
 - Put all your scaffolds.fasta metagenomes (from MetaSpades) in the directory (All-assemblies), same location of the script: run_kaiju2-phyloseq.py 
 - Example: All_assembly/run_kaiju2-phyloseq.py
