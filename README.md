@@ -1,5 +1,7 @@
 # kaiju2-data-parser 
 
+# Author: Leandro de Mattos Pereira, Supervisor: Dra. Gisele Nunes.
+
 - Put all your scaffolds.fasta metagenomes (from MetaSpades) in the directory (All-assemblies), same location of the script: run_kaiju2-phyloseq.py 
 - Example: All_assembly/run_kaiju2-phyloseq.py
 - run_kaiju2-phyloseq.py takes all fasta scaffolds (Ex: All-assemblies) generates from Spades and performed all steps of kaiju classification (https://github.com/bioinformatics-centre/kaiju)
