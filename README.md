@@ -1,4 +1,4 @@
-# kaiju2-data-parser 
+# kaiju2-data-parser  - Metagenomic classification of reads/MAGs/Scaffolds
 
 - Authors: PhD, Leandro de Mattos Pereira, Supervisor: PhD, Gisele Nunes, Vale Institute of Technology (ITV), Brazil, Belem - Pará.
 
