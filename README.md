@@ -35,6 +35,7 @@
 - -t (number of cpus), -m (nodes.dmp from kaiju nr_euk database), -n (names.dmp from kaiju nr_euk database), -f (kaiju_db_nr_euk.fmi from kaiju index generated from nr_euk database), -i ./ (dir with .fna files), -o (name of OTU table).
 
 - OBS: The script have as -i argument all the .fna files. The .fna files are the CDS (coding DNA sequence) files obtained from each scaffold.fasta using a program of gene prediction such as Prodigal.
+- make sure kaiju's scripts from kaiju dir bin is in the path of run_kaiju2-phyloseq.py
        
 
 
