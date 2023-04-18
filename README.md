@@ -28,7 +28,8 @@
 - Download requeriments.txt to dir: All-assemblies
 - pip3 install -r /path/to/All-assemblies/requirements.txt
 - python3 run_kaiju2-phyloseq.py -h 
-- Example for run the script: python ./run_kaiju2-phyloseq.py -t 24 -m /kaiju-db-nr_euk/nodes.dmp -n /kaiju-db-nr_euk/names.dmp -f /kaiju-db-nr_euk/nr_euk/kaiju_db_nr_euk.fmi -i ./ -o result.otu.table
+- Example for run the script: python run_kaiju2-phyloseq.py  -t 24 -m /bio_temp/share_bio/softwares/kaiju/kaiju-db-nr/nodes.dmp -n /bio_temp/share_bio/softwares/kaiju/kaiju-db-nr/names.dmp -f /bio_temp/share_bio/softwares/kaiju/kaiju-db-nr_euk/nr_euk/kaiju_db_nr_euk.fmi -i /bio_temp/c0232/all_fastq/BIN_REASSEMBLY_Metawrap/reassembled_bins/ -o result.otu.table
+
 - Required arguments to run_kaiju2-phyloseq.py:
 
 - -t (number of cpus), -m (nodes.dmp from kaiju nr_euk database), -n (names.dmp from kaiju nr_euk database), -f (kaiju_db_nr_euk.fmi from kaiju index generated from nr_euk database), -i ./ (dir with .fna files), -o (name of OTU table).
